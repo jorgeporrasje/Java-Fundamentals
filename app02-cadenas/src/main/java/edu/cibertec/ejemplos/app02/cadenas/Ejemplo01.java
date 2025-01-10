@@ -14,6 +14,14 @@ public class Ejemplo01 {
         System.out.println("El nombre en mayúsculas: " + nombre.toUpperCase());
         System.out.println("El nombre en minúsculas: " + nombre.toLowerCase());
         System.out.println(mensaje + ", ¡bienvenidos!");
+        // Usualmente, desde una UI Web, las variables llegan como texto
+        String edadWeb = "27";
+        String sueldoWeb = "1500.50";
+        // Para hacer las conversiones respectivas, utilizao las clases Wrapper
+        int edad = Integer.parseInt(edadWeb);
+        double sueldo = Double.parseDouble(sueldoWeb);
+        System.out.println("La edad es: " + edad);
+        System.out.println("El sueldo es: " + sueldo);
     }
     
     
